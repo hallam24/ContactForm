@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/style.css">  
+    
+    
+
+    
+</head>
+
+<body>
+<div id="ContactContainer">
+    <form id="ContactForm" class="col-md-push 1">
+        <div class="row">
+            <div class="col-md-6 col-md-push-1">
+                <div class="form-group col-md-3">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Name" data-validation-required-message="Please enter your name">
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Email" data-validation-requred-message="Please enter your email">
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="name">Password</label>
+                    <input type="text" name="password" id="password" placeholder="Password" data-validation-required-message="Please enter a password">
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-md-push-1">
+        
+                <div class="form-group col-md-3">
+                    <label for="gender">Gender<br></label>
+                    <br>
+                    <input type="radio" name="gender" id="gender" value="m">Male <br>
+                    <input type="radio" name="gender" id="gender" value="f">Female <br>
+                    <input type="radio" name="gender" id="gender" value="o">Other
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="coms">I am happy to recieve communications </label>
+                    <input type="checkbox" name="coms" id="coms" value="WantsComs">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+                <div class="form-group col-md-6">
+                    <button type="submit" id="submitButton" class="btn btn-primary btn-block">Submit</button>
+				</div>
+        
+        </div>
+    </form>
+</div>
+<!-- jQuery -->
+<script src="js/jquery.min.js"></script>
+<!-- Bootstrap -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/respond.js"></script>
+
+
+</script>
+</body>
+</html>
