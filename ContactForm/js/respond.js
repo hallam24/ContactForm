@@ -19,7 +19,7 @@ $(document).ready(function () {
                 url: "respond.php",
                 data: sendData,
                 success: function (data) {
-                    alert(data);
+                    console.log(data);
                 }
 
             });
